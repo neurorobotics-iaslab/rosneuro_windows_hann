@@ -1,17 +1,17 @@
 <class_libraries>
   <library path="lib/librosneuro_windowss_hann">
     <class name="rosneuro_windows/HannWindowDouble" type="rosneuro::Hann<double>"
-        base_class_type="rosneuro::Filter<double>">
+        base_class_type="rosneuro::Window<double>">
       <description>Hann filter with doubles</description>
     </class>
     
     <class name="rosneuro_windows/HannWindowFloat" type="rosneuro::Hann<float>"
-        base_class_type="rosneuro::Filter<float>">
+        base_class_type="rosneuro::Window<float>">
       <description>Hann filter with floats</description>
     </class>
     
     <class name="rosneuro_windows/HannFilterInt" type="rosneuro::Hann<int>"
-        base_class_type="rosneuro::Filter<int>">
+        base_class_type="rosneuro::Window<int>">
       <description>Hann filter with ints</description>
     </class>
   </library>

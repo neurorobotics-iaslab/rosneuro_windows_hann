@@ -13,7 +13,6 @@
   <depend>std_msgs</depend>
   <depend>message_generation</depend>
 
-  <depend>rosneuro_filters</depend>
   <depend>rosneuro_windows</depend>
   <exec_depend>message_runtime</exec_depend>
   <depend>eigen</depend>
